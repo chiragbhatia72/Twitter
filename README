@@ -1,0 +1,45 @@
+INTRODUCTION
+
+	This project contains all the code necessary to reproduce the analysis
+	presented in mining Twitter for Election sentiment:
+
+
+CONTENTS
+
+	csv files/						Data files
+		lalu.csv
+		modi.csv
+		LaluScore.csv
+		NitishScore.csv
+		
+	txt files/						Positive and negative words file
+		positive-words.txt
+		negative-words.txt
+	
+	plots/ 							graphics
+		Lalu_score.png
+		Nitish_score.png
+	
+	twitter.Rdata
+
+	Twitter.R						Code
+
+	Twitter_Analysis.pdf					Report
+	
+	README 							this file
+
+
+INSTRUCTIONS
+
+In order to run the analysis, start RStudio or R prompt from this project's root directory
+or it with setwd()
+
+
+Load the prerequisite packages and some environment variables with the "Twitter.R" script:
+
+		> source("R/Twitter.R")
+
+	
+Chirag Bhatia
+17chiragbhatia94@gmail.com
+November 2015
